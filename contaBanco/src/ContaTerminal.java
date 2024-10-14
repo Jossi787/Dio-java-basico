@@ -12,7 +12,9 @@ public class ContaTerminal {
       String nomeCliente = new String("");
       double saldo = 0.0;
 
+       //Exibir as mebsagens para o nosso usuario
       System.out.println("Informe seu nome:" );
+       //Obter pelo scanner os valores digitados no terminal
       nomeCliente = scan.nextLine();
       System.out.println("Informe sua agência:" );
       agencia = scan.nextLine();
@@ -20,8 +22,7 @@ public class ContaTerminal {
       numero = scan.nextInt();
       System.out.println("Informe o saldo da conta:R$" );
       saldo = scan.nextDouble();
-
-
+        //Exibir a mensagem conta criada
       System.out.println("Olá "+nomeCliente+", obrigado por criar uma conta em nosso banco, sua agencia é "+agencia+", conta "+numero+" e seu saldo é R$"+saldo+" e já está disponível para saque");
   }
 }
@@ -29,12 +30,9 @@ public class ContaTerminal {
 
       
     
-      //Exibir as mebsagens para o nosso usuario
-
+     
       
 
-      //Obter pelo scanner os valores digitados no terminal
 
-      //Exibir a mensagem conta criada
     
 
